@@ -83,4 +83,4 @@ Penjelasan Kode Program:
 ```
 
 ## Hasil OUTPUT 
-<img width="1919" height="543" alt="image" src="https://github.com/user-attachments/assets/6416d340-25d4-4df3-80bd-f5cb05334abf" />
+<img width="1919" height="543" alt="image" src="/img/Sorted.png" />
