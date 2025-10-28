@@ -7,10 +7,16 @@ Tugas ini bertujuan untuk membuat program Python yang dapat perulangan bertingka
 ## Kode Program (Perulangan.py)
 
 ```python
-for i in range(10):           # Baris dari 0 sampai 9
-    for j in range(10):       # Kolom dari 0 sampai 9
-        print(i + j, end=' ') # Cetak angka dengan spasi
-    print()                   # Pindah ke baris berikutnya
+for i in range(1, 10):
+    # Perulangan dalam (inner loop) untuk kolom
+    for j in range(1, 10):
+        # Menghitung hasil perkalian
+        hasil = i + j
+        # Mencetak hasil dengan format rata kanan
+        print(f"{hasil:>4}", end="")
+    
+    # Pindah ke baris baru setelah perulangan dalam selesai
+    print()                # Pindah ke baris berikutnya
 
 ```
 Penjelasan Kode Program:
@@ -39,7 +45,7 @@ j = 1 → print 1 + 1 = 2
 - print(): Pindah ke baris baru setelah selesai satu baris lengkap
 
 ## Hasil OUTPUT 
-<img width="1919" height="549" alt="image" src="https://github.com/user-attachments/assets/593e37a3-5ff6-4e7b-a734-05c45b81693f" />
+<img width="1919" height="549" alt="image" src="/img/Nested.png" />
 
 ---
 
