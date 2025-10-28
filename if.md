@@ -7,22 +7,22 @@ Tugas ini bertujuan untuk membuat program Python yang dapat menerima empat buah 
 ## Kode Program (4bilangan_terbesar.py)
 
 ```python
-A = int(input("bilangan 1: "))
-B = int(input("bilangan 2: "))
-C = int(input("bilangan 3: "))
-D = int(input("bilangan 4: "))
+a = int(input("Enter a number: "))
+b = int(input("Enter a number: "))
+c = int(input("Enter a number: "))
+d = int(input("Enter a number: "))
 
-# carilah bilangan terbesar dari empat bilangan tersebut
-
-
-if A >= B and A >= C and A >= D:
-    print("1 bilangan terbesar")
-elif B >= A and B >= C and B >= D:
-    print("2 bilangan terbesar")
-elif C >= A and C >= B and C >= D:
-    print("3 bilangan terbesar")
+if a > b and a > c and a > d:
+    terbesar1 = a
+elif b > a and b > c and b > d:
+    terbesar1 = b
+elif c > a and c > b and c > d:
+    terbesar1 = c
 else:
-    print("4 bilangan terbesar")
+    terbesar1 = d
+
+
+print("The largest number is:", terbesar1)
 ```
 
 Penjelasan Kode Program:
