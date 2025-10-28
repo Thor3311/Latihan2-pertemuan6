@@ -59,15 +59,30 @@ Tugas ini bertujuan untuk membuat program Python yang dapat Menghasilkan dan men
 ```python
 import random
 
-n = int(input("Masukkan jumlah n: "))
+# Meminta input dari pengguna untuk menentukan jumlah bilangan (n)
+while True:
+    try:
+        n_input = input("Masukkan jumlah bilangan acak yang ingin ditampilkan (n): ")
+        # Mengubah input menjadi integer
+        n = int(n_input)
+        # Memastikan n adalah bilangan positif
+        if n > 0:
+            break
+        else:
+            print("Masukkan bilangan bulat positif.")
+    except ValueError:
+        # Menangani jika input bukan angka
+        print("Input tidak valid. Harap masukkan bilangan bulat.")
 
-jumlah = 0
+print(f"\nMenampilkan {n} bilangan acak yang lebih kecil dari 0.5:")
 
-while jumlah < n:
-    angka = random.random()  
-    if angka < 0.5:
-        print(angka)
-        jumlah += 1
+# Menggunakan loop for untuk mengulang sebanyak n kali
+for i in range(n):
+    # Menggunakan loop while untuk memastikan bilangan yang dihasilkan < 0.5
+    bilangan_acak = random.random()
+    while bilangan_acak >= 0.5:
+        bilangan_acak = random.random()
+    print(f"Bilangan acak ke-{i + 1}: {bilangan_acak:.4f}")
 
 ```
 Penjelasan Kode Program:
@@ -82,4 +97,4 @@ Penjelasan Kode Program:
 - Jika angka ≥ 0.5, loop terus berjalan tanpa mencetak dan tanpa menambah counter
   
 ## Hasil OUTPUT 
-<img width="1918" height="548" alt="image" src="https://github.com/user-attachments/assets/1423fe2d-d8c2-4aa2-b417-35535aa243ab" />
+<img width="1918" height="548" alt="image" src=/img/While/png" />
