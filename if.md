@@ -36,7 +36,7 @@ else: Jika bukan A, B, atau C, maka D pasti terbesar
 ```
 Output: Menampilkan urutan bilangan mana yang terbesar
 ## Hasil OUTPUT 
-<img width="1912" height="545" alt="image" src="https://github.com/user-attachments/assets/8545d3f0-669f-421e-b6ab-cc56806d8df5" />
+<img width="1912" height="545" alt="image" src="/img/If.png" />
 
 ---
 # Latihan 2: Mengurutkan Data (Python)
