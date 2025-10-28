@@ -97,4 +97,4 @@ Penjelasan Kode Program:
 - Jika angka ≥ 0.5, loop terus berjalan tanpa mencetak dan tanpa menambah counter
   
 ## Hasil OUTPUT 
-<img width="1918" height="548" alt="image" src=/img/While.png" />
+<img width="1918" height="548" alt="image" src="/img/While.png" />
